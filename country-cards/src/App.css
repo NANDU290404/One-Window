@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  margin: 0px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://darksoul-git.github.io/Blurred%20Side%20Navigation%20bar/windows-11-gradient-background-bloom-light-backgrounds-5k.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(255, 255, 255, 0.228);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 8px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 8px;
+}
+
+.App-header {
+  background-color: rgba(255, 255, 255, 0.228);
+  padding: 8px;
+  color: white;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.App-logo {
+  height: 60px;
+  pointer-events: none;
+  margin-left: 10px;
+}
